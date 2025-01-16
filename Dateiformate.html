@@ -8,9 +8,19 @@
     <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+    <script src="./script.js"></script>
     <div class="header">
         <h1>3D-Druck</h1>
-        <div class="navbar">
+        <div>
+            <button onclick="toggleMenu()" class="burger">
+                <span class="burger-6">
+                    <span class="line"></span>
+                    <span class="line"></span>
+                    <span class="line"></span>
+                </span>
+            </button>
+        </div>
+        <div id="menu" class="navbar menu">
             <a class="nav" href="./index.html">Home</a>
             <a class="nav" href="./Druckverfahren.html">Druckverfahren</a>
             <a class="nav" href="./Materialien.html">Materialien</a>
